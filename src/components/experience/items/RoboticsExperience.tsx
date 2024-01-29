@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Ournament from "/public/images/work-ournament-blue.png";
+import Ournament from "/public/images/experience-ournament-blue.png";
 
 export default function RoboticsExperience() {
   const responsibilities = [

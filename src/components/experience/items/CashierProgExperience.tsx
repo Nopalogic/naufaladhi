@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Ournament from "/public/images/work-ournament-green.png";
+import Ournament from "/public/images/experience-ournament-green.png";
 
 export default function CashierProgExperience() {
   const responsibilities = [
