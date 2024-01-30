@@ -4,7 +4,7 @@ import Ournament from "/public/images/experience-ournament-blue.png";
 export default function RoboticsExperience() {
   const responsibilities = [
     "Leading the circuit design process, including component selection and schematic development.",
-    "Overseeing the assembly of robots, including component placement, wiring, and welding where necessary.",
+    "Overseeing the assembly of robots, including component placement, wiring, and soldering where necessary.",
     "Scripting robotics behavior in C++ while leveraging relevant Arduino libraries.",
     "Collaborate with science teachers to develop robots using solar panels for self-powered operation.",
   ];
@@ -46,7 +46,7 @@ export default function RoboticsExperience() {
             </h4>
             <p className="leading-140 mt-8 max-w-[570px] text-xl font-medium text-sky-50 md:text-2xl">
               Lead of the robotics team focused on design circuits, assembly of
-              components, cable wiring, and even some welding components.
+              components, cable wiring, and even some soldering components.
             </p>
             <h4 className="mt-10 flex flex-col space-y-3 text-xl font-semibold text-sky-300 sm:mt-16 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 md:text-2xl">
               <svg
