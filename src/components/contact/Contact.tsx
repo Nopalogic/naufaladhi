@@ -43,9 +43,6 @@ export default function Contact() {
                   loading="lazy"
                   className="h-24 max-h-24 w-24 max-w-[96px] rounded-full object-cover sm:h-32 sm:min-h-[32px] sm:w-32 sm:min-w-[32px] md:h-28 xl:h-32 xl:max-h-32 xl:max-w-[128px]"
                 />
-                <span className="absolute -bottom-1 right-0 text-4xl xl:text-5xl">
-                  🔥
-                </span>
               </div>
 
               <div className="mt-6 sm:mt-0">
