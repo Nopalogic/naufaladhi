@@ -9,10 +9,10 @@ export default function ButtonGithubRepo({ name, url }: buttonProps) {
   return (
     <>
       <Link href={url} className="font-semibold leading-6 tracking-tight">
-        <span className="sm:!leading-100 block text-xl lowercase leading-4 text-slate-200 sm:text-[32px]">
+        <span className="block text-[32px] lowercase leading-6 text-slate-200 lg:text-4xl lg:leading-10">
           {name}
         </span>
-        <span className="inline-flex space-x-[6px] text-sm text-slate-300 sm:pt-2 sm:text-xl">
+        <span className="inline-flex space-x-[6px] text-sm text-slate-300 lg:text-xl">
           <span>on</span>
           <span>
             <svg

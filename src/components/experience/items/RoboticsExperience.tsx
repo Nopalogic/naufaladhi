@@ -11,44 +11,44 @@ export default function RoboticsExperience() {
 
   return (
     <>
-      <article className="relative mx-auto max-w-[1244px] overflow-hidden bg-gradient-to-br from-blue-400 via-transparent to-blue-400 px-[2px] py-[2px] sm:rounded-2xl">
+      <article className="relative mx-auto max-w-[1244px] overflow-hidden rounded-none bg-gradient-to-br from-blue-400 via-transparent to-blue-400 px-0 py-[2px] md:rounded-2xl md:px-[2px]">
         <Image
           src={Ournament}
           width={1000}
           height={1000}
           loading="lazy"
           alt="ournament"
-          className="pointer-events-none absolute right-0 z-0 min-w-[500px] sm:min-w-[1000px]"
+          className="pointer-events-none absolute bottom-0 right-0 z-0 min-w-[500px] lg:min-w-[1000px]"
         />
-        <div className="rounded-[14px] bg-slate-900 py-20 lg:px-[5.4rem]">
-          <header className="flex flex-col items-start justify-between sm:flex-row">
-            <div className="flex space-x-4 sm:space-x-6">
+        <div className="rounded-none bg-slate-900 px-4 py-20 md:rounded-[14px] lg:px-[5.4rem]">
+          <header className="flex flex-col items-start justify-between md:flex-row">
+            <div className="flex space-x-4 lg:space-x-6">
               <div>
-                <h3 className="text-2xl font-semibold leading-10 text-cyan-50 sm:text-3xl md:text-[40px]">
+                <h3 className="text-3xl font-semibold leading-10 text-cyan-50 md:text-[40px]">
                   Robotics Project
                 </h3>
-                <span className="inline-block pt-1 text-sm font-semibold leading-10 text-sky-500 sm:text-base md:pt-2 md:text-2xl">
+                <span className="text-md inline-block pt-1 font-semibold text-sky-500 md:pt-2 md:text-2xl lg:text-base">
                   @Fatahillah Vocational High School
                 </span>
               </div>
             </div>
 
-            <div className="relative mt-5 rounded-lg bg-gradient-to-br from-blue-300 from-10% px-[2px] py-2 sm:mt-0">
-              <span className="rounded-md bg-slate-900 px-4 py-2 font-bold text-cyan-50 sm:text-lg md:text-xl">
+            <div className="relative mt-5 rounded-lg bg-gradient-to-br from-blue-300 from-10% px-[2px] py-2">
+              <span className="rounded-md bg-slate-900 px-4 py-2 text-lg font-bold text-cyan-50 md:text-xl">
                 Team Leader
               </span>
             </div>
           </header>
 
           <div className="mt-20">
-            <h4 className="text-lg font-semibold text-sky-300 sm:text-xl">
+            <h4 className="text-xl font-semibold text-sky-300 md:text-lg">
               July 2021 - January 2022
             </h4>
-            <p className="leading-140 mt-8 max-w-[570px] text-xl font-medium text-sky-50 md:text-2xl">
+            <p className="mt-8 max-w-[570px] text-xl font-medium leading-10 text-sky-50 md:text-2xl">
               Lead of the robotics team focused on design circuits, assembly of
               components, cable wiring, and even some soldering components.
             </p>
-            <h4 className="mt-10 flex flex-col space-y-3 text-xl font-semibold text-sky-300 sm:mt-16 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 md:text-2xl">
+            <h4 className="mt-10 flex items-center space-x-3 space-y-0 text-xl font-semibold text-sky-300 md:mt-16 md:text-2xl">
               <svg
                 width="19"
                 height="17"
@@ -65,9 +65,14 @@ export default function RoboticsExperience() {
               </svg>
               <span>Responsibilities and things I did</span>
             </h4>
-            <ul className="mt-10 max-w-[774px] translate-x-6 list-disc space-y-5 !leading-[180%] text-sky-50 sm:text-lg md:text-xl">
+            <ul className="mt-10 max-w-[774px] space-y-5 px-4 text-lg !leading-[180%] text-sky-50 md:text-xl">
               {responsibilities.map((responsibility: string, id: number) => (
-                <li key={id}>{responsibility}</li>
+                <li
+                  key={id}
+                  className="before:mb-1 before:mr-2 before:inline-block before:h-1.5 before:w-1.5 before:rounded-full before:bg-sky-50"
+                >
+                  {responsibility}
+                </li>
               ))}
             </ul>
           </div>

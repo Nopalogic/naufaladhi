@@ -12,15 +12,15 @@ export default function Contact() {
           height={1100}
           src={ContactBackground}
           alt=""
-          className="pointer-events-none absolute bottom-0 w-[800px] min-w-[800px] sm:right-0 sm:min-w-[1200px]"
+          className="pointer-events-none absolute bottom-0 right-0 w-[800px] min-w-[1200px] lg:min-w-[800px]"
         />
 
-        <div className="z-10 mx-auto h-full px-5 text-[#CFFAFE] max-lg:py-20 max-lg:pb-36 sm:px-10 md:px-16 lg:px-0 lg:pb-16 xl:max-w-[1244px] xl:px-4 xl:pb-10 2xl:pb-32">
+        <div className="z-10 mx-auto h-full px-10 text-[#CFFAFE] max-lg:py-20 max-lg:pb-36 md:px-16 lg:px-0 lg:pb-16 xl:max-w-[1244px] xl:px-4 xl:pb-10 2xl:pb-32">
           <h2 className="text-3xl font-semibold !leading-10 tracking-tight md:font-bold 2xl:text-4xl">
             {"Let's get in touch"}
           </h2>
 
-          <div className="mt-4 text-5xl font-semibold tracking-tighter sm:text-6xl lg:text-[68px] xl:text-[84px] 2xl:mt-16 2xl:text-[92px]">
+          <div className="mt-4 text-6xl font-semibold tracking-tighter lg:text-[68px] xl:text-[84px] 2xl:mt-16 2xl:text-[92px]">
             <p className="mt-5 leading-[90%] lg:mt-2 xl:-mt-2 xl:leading-[120%]">
               Suka kopi, mau ngopi bareng?
             </p>
@@ -33,24 +33,24 @@ export default function Contact() {
           </div>
 
           <div className="mt-10">
-            <div className="flex flex-col items-start sm:flex-row sm:space-x-8">
-              <div className="relative inline-flex aspect-square h-24 max-h-24 items-center justify-center rounded-full sm:min-h-[32px] sm:min-w-[32px] md:h-28 xl:h-32 xl:max-h-32">
+            <div className="flex flex-col items-start md:flex-row md:space-x-8">
+              <div className="relative inline-flex aspect-square h-24 max-h-24 min-h-[32px] min-w-[32px] items-center justify-center rounded-full md:h-28 xl:h-32 xl:max-h-32">
                 <Image
                   width={500}
                   height={500}
                   src={ProfilePicture}
-                  alt="Helmi Satria"
+                  alt="Naufl Adhi"
                   loading="lazy"
-                  className="h-24 max-h-24 w-24 max-w-[96px] rounded-full object-cover sm:h-32 sm:min-h-[32px] sm:w-32 sm:min-w-[32px] md:h-28 xl:h-32 xl:max-h-32 xl:max-w-[128px]"
+                  className="max-h-24 min-h-[32px] min-w-[32px] max-w-[96px] rounded-full object-cover md:h-28 md:w-28 lg:h-24 lg:w-24 xl:h-32 xl:max-h-32 xl:w-32 xl:max-w-[128px]"
                 />
               </div>
 
-              <div className="mt-6 sm:mt-0">
+              <div className="mt-2 md:mt-0">
                 <p className="text-xl font-medium text-[#38BDF8] xl:text-2xl">
                   Contact me via
                 </p>
 
-                <div className="mt-4 space-y-1 text-[#CFFAFE] sm:space-y-0 md:mt-6 lg:text-base xl:mt-8 xl:text-2xl">
+                <div className="mt-4 space-y-0 text-[#CFFAFE] md:mt-6 lg:text-base xl:mt-8 xl:text-2xl">
                   <Link
                     href="https://instagram.com/@nopalogic"
                     className="flex items-center space-x-4"
