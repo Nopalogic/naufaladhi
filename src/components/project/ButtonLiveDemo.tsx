@@ -8,16 +8,16 @@ export default function ButtonLiveDemo({ url }: props) {
       <Link
         href={url}
         target="_blank"
-        className="relative inline-flex w-full items-start justify-between rounded-2xl bg-cyan-900 p-5 pb-8 sm:px-8 sm:py-6 lg:w-[495px]"
+        className="relative inline-flex w-full items-start justify-between rounded-2xl bg-cyan-900 p-5 pb-8 lg:w-[495px]"
       >
         <div>
           <div className="inline-flex items-center space-x-2">
-            <div className="h-2 w-2 rounded-full bg-green-500 sm:h-[10px] sm:w-[10px]"></div>
-            <span className="text-base font-semibold leading-10 tracking-tight text-green-500 sm:text-2xl">
+            <div className="h-2 w-2 rounded-full bg-green-500"></div>
+            <span className="text-base font-semibold tracking-tight text-green-500 md:text-2xl md:leading-10">
               Live in Production
             </span>
           </div>
-          <span className="relative block lg:pb-4 pt-0 text-[32px] font-semibold lowercase leading-10 tracking-tight text-sky-50 sm:text-[2.5rem]">
+          <span className="relative block pt-0 text-[24px] font-semibold lowercase leading-10 tracking-tight text-sky-50 md:text-[2.5rem] lg:pb-4">
             {url.slice(8)}
           </span>
         </div>
