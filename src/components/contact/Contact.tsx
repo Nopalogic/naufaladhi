@@ -34,23 +34,12 @@ export default function Contact() {
 
           <div className="mt-10">
             <div className="flex flex-col items-start md:flex-row md:space-x-8">
-              <div className="relative inline-flex aspect-square h-24 max-h-24 min-h-[32px] min-w-[32px] items-center justify-center rounded-full md:h-28 xl:h-32 xl:max-h-32">
-                <Image
-                  width={500}
-                  height={500}
-                  src={ProfilePicture}
-                  alt="Naufl Adhi"
-                  loading="lazy"
-                  className="max-h-24 min-h-[32px] min-w-[32px] max-w-[96px] rounded-full object-cover md:h-28 md:w-28 lg:h-24 lg:w-24 xl:h-32 xl:max-h-32 xl:w-32 xl:max-w-[128px]"
-                />
-              </div>
-
               <div className="mt-2 md:mt-0">
                 <p className="text-xl font-medium text-[#38BDF8] xl:text-2xl">
                   Contact me via
                 </p>
 
-                <div className="mt-4 space-y-0 text-[#CFFAFE] md:mt-6 lg:text-base xl:mt-8 xl:text-2xl">
+                <div className="mt-4 space-y-2 text-[#CFFAFE] md:mt-5 md:space-y-1 lg:text-base xl:text-2xl">
                   <Link
                     href="https://instagram.com/@nopalogic"
                     className="flex items-center space-x-4"
