@@ -33,14 +33,14 @@ export default function RoboticsExperience() {
               </div>
             </div>
 
-            <div className="relative mt-5 rounded-lg bg-gradient-to-br from-blue-300 from-10% px-[2px] py-2">
+            <div className="relative mt-5 rounded-lg bg-gradient-to-b lg:bg-gradient-to-br from-blue-300 from-10% px-[2px] py-[7px] lg:py-2">
               <span className="rounded-md bg-slate-900 px-4 py-2 text-lg font-bold text-cyan-50 md:text-xl">
                 Team Leader
               </span>
             </div>
           </header>
 
-          <div className="mt-20">
+          <div className="mt-16 md:mt-20">
             <h4 className="text-xl font-semibold text-sky-300 md:text-lg">
               July 2021 - January 2022
             </h4>
