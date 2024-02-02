@@ -16,7 +16,7 @@ export default function Home() {
             width="1000"
             height="1000"
             alt=""
-            className="pointer-events-none absolute top-0 z-10 min-w-[400px] lg:min-w-[1000px]"
+            className="pointer-events-none absolute top-0 z-10 min-w-[100%] lg:min-w-[1000px]"
           />
           <div className="container">
             <div className="flex flex-wrap items-center">
