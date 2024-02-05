@@ -11,8 +11,9 @@ export default function ExperienceSection() {
               Experiences
             </h2>
             <p className="text-md px-4 font-medium text-cyan-50 md:text-xl">
-              I have previously studied software engineering, and am currently
-              studying informatics engineering.
+              {
+                "I have previously studied software engineering, and I'm currently studying informatics engineering."
+              }
             </p>
           </div>
         </div>

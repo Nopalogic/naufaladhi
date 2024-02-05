@@ -22,15 +22,15 @@ export default function Home() {
             <div className="flex flex-wrap items-center">
               <div className="w-full self-center px-4 lg:w-1/2">
                 <h1 className="text-base font-semibold text-blue-300 md:text-xl">
-                  Hi, Im
+                  {"Hi, I'm"}
                   <span className="mt-1 block text-4xl font-bold text-white lg:text-5xl">
                     Naufal Adhi
                   </span>
                 </h1>
                 <h2 className="mb-5 text-lg font-medium text-neutral-300 lg:text-2xl">
-                  Student &{" "}
+                  A Student &{" "}
                   <span className="text-gray-500">
-                    Full Stack Web Developer Wanna be
+                    A Full Stack Web Developer Wanna be
                   </span>
                 </h2>
               </div>
