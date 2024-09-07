@@ -63,3 +63,233 @@
   color: unset;
   background-clip: text;
 }
+
+/* PROJECT SECTION */
+#projects .title-highlight {
+  background:
+    radial-gradient(
+        75.3% 65106.57% at 1.06% -86.9%,
+        rgba(12, 80, 105, 0.2) 0%,
+        rgba(12, 74, 110, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(89.96deg, #91dafc -0.07%, rgba(145, 218, 252, 0) 113.39%);
+  transform: rotate(-1.13deg);
+}
+
+.project-1 {
+  background: linear-gradient(
+      146.63deg,
+      rgba(2, 132, 199, 0.1) 1.32%,
+      rgba(236, 254, 255, 0) 66%
+    ),
+    linear-gradient(
+      325.76deg,
+      rgba(2, 132, 199, 0.2) 3.68%,
+      rgba(236, 254, 255, 0) 66.89%
+    ),
+    #ffffff;
+  box-shadow:
+    15px 24px 17px rgba(0, 0, 0, 0.01),
+    7px 11px 13px rgba(0, 0, 0, 0.02),
+    2px 3px 7px rgba(0, 0, 0, 0.02),
+    0px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.project-1::before {
+  --something: 2px !important;
+  content: "";
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  inset: 0px;
+  border-radius: inherit;
+  padding: var(--something);
+  opacity: var(--something-opa);
+  background: linear-gradient(
+      135deg,
+      #0285c7aa 5%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      300deg,
+      #0284c7 10%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    );
+  content: "";
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  border-radius: inherit;
+  -webkit-mask:
+    linear-gradient(black, black) content-box content-box,
+    linear-gradient(black, black);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.project-2 {
+  background: linear-gradient(
+      142.21deg,
+      rgba(231, 80, 117, 0.1) -0.37%,
+      rgba(236, 254, 255, 0) 66.76%
+    ),
+    linear-gradient(
+      318.59deg,
+      rgba(232, 85, 121, 0.2) 3.78%,
+      rgba(236, 254, 255, 0) 47.39%
+    ),
+    #ffffff;
+  box-shadow:
+    15px 24px 17px rgba(0, 0, 0, 0.01),
+    7px 11px 13px rgba(0, 0, 0, 0.02),
+    2px 3px 7px rgba(0, 0, 0, 0.02),
+    0px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+.project-2::before {
+  content: "";
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  inset: 0px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(
+      135deg,
+      hsla(345, 76%, 62%, 0.4) 5%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      300deg,
+      hsla(345, 76%, 62%, 0.8) 10%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    );
+  content: "";
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  border-radius: inherit;
+  -webkit-mask:
+    linear-gradient(black, black) content-box content-box,
+    linear-gradient(black, black);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+@media (max-width: 640px) {
+  #projects .title-highlight {
+    background:
+      radial-gradient(
+          75.3% 65106.57% at 1.06% -86.9%,
+          rgba(12, 80, 105, 0.2) 0%,
+          rgba(12, 74, 110, 0) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      linear-gradient(89.96deg, #beebff -0.07%, rgba(145, 218, 252, 0) 113.39%);
+    transform: rotate(-1.13deg);
+  }
+
+  .project-header::before {
+    content: "";
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    height: 450%;
+    opacity: 40%;
+    background:
+      radial-gradient(
+          78.47% 16.24% at 0% 39.21%,
+          rgba(221, 214, 254, 0.44) 0%,
+          rgba(217, 217, 217, 0) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      radial-gradient(
+          77.5% 23.35% at -3.06% 47.79%,
+          rgba(14, 165, 233, 0.294) 0%,
+          rgba(217, 217, 217, 0) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    z-index: -1;
+  }
+
+  .project-1 {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 132, 199, 0.1) 0%,
+      rgba(236, 254, 255, 0) 66.89%
+    );
+  }
+
+  .project-1::before {
+    padding: 0;
+    padding-top: 2px !important;
+    background: linear-gradient(90deg, #0284c7 0%, #ffffff 66.89%);
+  }
+
+  .project-2 {
+    background: linear-gradient(
+      90deg,
+      rgba(231, 80, 117, 0.1) 0%,
+      #ffffff 66.89%
+    );
+  }
+
+  .project-2::before {
+    padding: 0;
+    padding-top: 2px;
+    background: linear-gradient(
+      90deg,
+      rgba(231, 80, 117, 0.8) 0%,
+      #ffffff 66.89%
+    );
+  }
+}
+
+.red-overlay {
+  background: radial-gradient(
+      136.64% 61.58% at 89.55% 104.49%,
+      rgba(225, 29, 72, 0.17) 0%,
+      rgba(255, 241, 242, 0) 100%
+    ),
+    radial-gradient(
+      21.08% 15.61% at 21.46% 19.85%,
+      rgba(225, 29, 72, 0.1) 0%,
+      rgba(255, 241, 242, 0) 100%
+    );
+}
+
+@media (max-width: 1268px) {
+  .red-overlay {
+    background: radial-gradient(
+        136.64% 61.58% at 89.55% 104.49%,
+        rgba(225, 29, 72, 0.17) 0%,
+        rgba(255, 241, 242, 0) 100%
+      ),
+      radial-gradient(
+        21.08% 15.61% at 21.46% 19.85%,
+        rgba(225, 29, 72, 0.45) 0%,
+        rgba(255, 241, 242, 0) 100%
+      );
+  }
+}

@@ -8,10 +8,7 @@ export default function Home() {
     <>
       <main>
         <HeroSection />
-
-        <section id="projects" className="bg-slate-900 pt-36 md:pb-28">
-          <ProjectSection />
-        </section>
+        <ProjectSection />
 
         <section
           id="experience"
