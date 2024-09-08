@@ -1,30 +1,32 @@
-import RoboticsExperience from "./items/RoboticsExperience";
-import PyProgExperience from "./items/CashierProgExperience";
+import ExpHighlight from "./ExpHighlight";
+import ExperienceHeader from "./ExperienceHeader";
+import ExpCashier from "./items/ExpCashier";
 
 export default function ExperienceSection() {
   return (
     <>
-      <div className="md:container">
-        <div className="w-full px-0 md:px-4">
-          <div className="mx-auto mb-16 text-center">
-            <h2 className="mb-8 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              Experiences
-            </h2>
-            <p className="text-md px-4 font-medium text-cyan-50 md:text-xl">
-              {
-                "I have previously studied software engineering, and I'm currently studying informatics engineering."
-              }
-            </p>
-          </div>
+      <section id="experiences" className="relative overflow-hidden">
+        <div className="bg-top px-5 pt-32 sm:pt-[14rem]">
+          <ExperienceHeader />
         </div>
 
-        <div className="w-full px-0 md:px-4">
-          <div className="mb-0 md:mb-10">
-            <RoboticsExperience />
+        <div className="relative sm:space-y-16">
+          <div className="relative z-10 px-0 sm:px-8 md:px-12">
+            <ExpCashier />
           </div>
-          <PyProgExperience />
+
+          <div className="bg-govtech relative">
+            <div className="overlay-transition absolute z-0 hidden h-80 w-screen sm:block" />
+            <div className="px-0 sm:px-8 md:px-12 md:py-12 lg:py-24">
+              {/* <ExpHighlight
+                textColor="text-sky-300"
+                data={EXPERIENCES[1]}
+                className="experience-1"
+              /> */}
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

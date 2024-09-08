@@ -9,13 +9,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <ProjectSection />
-
-        <section
-          id="experience"
-          className="bg-gradient-to-b from-[#071F2B] from-55% to-teal-900 pt-36 md:pb-32"
-        >
-          <ExperienceSection />
-        </section>
+        <ExperienceSection />
 
         <section id="contact" className="bg-[#0D1117] pt-20">
           <Contact />
