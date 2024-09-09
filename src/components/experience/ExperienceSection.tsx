@@ -1,4 +1,3 @@
-import ExpHighlight from "./ExpHighlight";
 import ExperienceHeader from "./ExperienceHeader";
 import ExpCashier from "./items/ExpCashier";
 
@@ -11,19 +10,8 @@ export default function ExperienceSection() {
         </div>
 
         <div className="relative sm:space-y-16">
-          <div className="relative z-10 px-0 sm:px-8 md:px-12">
+          <div className="relative z-10 px-0 sm:px-8 md:px-12 md:py-12 lg:py-24">
             <ExpCashier />
-          </div>
-
-          <div className="bg-govtech relative">
-            <div className="overlay-transition absolute z-0 hidden h-80 w-screen sm:block" />
-            <div className="px-0 sm:px-8 md:px-12 md:py-12 lg:py-24">
-              {/* <ExpHighlight
-                textColor="text-sky-300"
-                data={EXPERIENCES[1]}
-                className="experience-1"
-              /> */}
-            </div>
           </div>
         </div>
       </section>
