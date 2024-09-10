@@ -1,9 +1,9 @@
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/ui/Navbar'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Figtree } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const figtree = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Naufal Adhi - Student and Fullstack Dev Wanna be',
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={figtree.className}>
         <Navbar />
         {children}
       </body>
