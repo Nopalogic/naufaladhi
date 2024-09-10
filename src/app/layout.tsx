@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/ui/Navbar'
 import type { Metadata } from 'next'
 import { Figtree } from 'next/font/google'
 import './globals.css'
