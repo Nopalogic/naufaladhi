@@ -13,7 +13,7 @@ export default function ProjectHeader() {
         </h2>
 
         <p className="!leading-150 text-dark mt-9 max-w-[730px] text-xl sm:text-2xl">
-          I've worked on a variety of projects, ranging from small MVPs to
+          I&apos;ve worked on a variety of projects, ranging from small MVPs to
           full-scale applications, also developed a wide array of features{" "}
           <br className="hidden lg:inline-block" /> and functionalities in
           projects.
