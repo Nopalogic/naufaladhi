@@ -41,7 +41,7 @@ export default function ProjectKalkulus() {
           <span className="font-semibold">
             I want everyone to be able to learn calculus easily and enjoyable.
           </span>{" "}
-          I believe that learning calculus shouldn't be a struggle, but rather
+          I believe that learning calculus shouldn&apos;t be a struggle, but rather
           an exciting journey of discovery. By providing engaging resources and
           interactive tools, I hope to empower learners to grasp the fundamental
           concepts of calculus with ease.
