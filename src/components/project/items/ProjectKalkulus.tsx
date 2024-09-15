@@ -56,7 +56,7 @@ export default function ProjectKalkulus() {
 
         <div className="mb-10 mt-10 sm:mb-14 sm:mt-[4.4rem]">
           <LiveProdButton
-            url="kalkulus.vercel.app"
+            url="https://kalkulus.vercel.app/"
             name="kalkulus.vercel.app"
           />
         </div>
