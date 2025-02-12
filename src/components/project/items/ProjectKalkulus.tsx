@@ -5,7 +5,7 @@ import LiveProdButton from "../../ui/LiveProdButton";
 
 export default function ProjectKalkulus() {
   return (
-    <article className="project-1 relative z-10 mx-auto max-w-[1244px] overflow-hidden py-20 sm:rounded-3xl">
+    <article className="project-kalkulus relative z-10 mx-auto max-w-[1244px] overflow-hidden py-20 sm:rounded-3xl">
       <Image
         src="/images/project-ournament-lines-btm.png"
         alt=""
@@ -28,9 +28,9 @@ export default function ProjectKalkulus() {
         <ImageSlider
           project="kalkulus"
           images={[
-            { url: "/images/projects/kalkulus1.png", alt: "kalkulus" },
-            { url: "/images/projects/kalkulus2.png", alt: "kalkulus" },
-            { url: "/images/projects/kalkulus3.png", alt: "kalkulus" },
+            { url: "/images/projects/kalkulus/kalkulus-1.jpg", alt: "kalkulus" },
+            { url: "/images/projects/kalkulus/kalkulus-2.jpg", alt: "kalkulus" },
+            { url: "/images/projects/kalkulus/kalkulus-3.jpg", alt: "kalkulus" },
           ]}
         />
       </div>

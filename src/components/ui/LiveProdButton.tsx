@@ -32,15 +32,15 @@ export default function LiveProdButton({ url, name }: LiveProdButtonProps) {
       <div>
         <div className="inline-flex items-center space-x-2 sm:space-x-3">
           <div className="relative">
-            <div className="bg-green-light absolute size-[8px] animate-ping rounded-full sm:size-[10px]" />
-            <div className="bg-green-light size-[8px] rounded-full sm:size-[10px]" />
+            <div className="absolute size-[8px] animate-ping rounded-full bg-green-light sm:size-[10px]" />
+            <div className="size-[8px] rounded-full bg-green-light sm:size-[10px]" />
           </div>
-          <span className="leading-100 text-green-light text-base font-semibold tracking-tight sm:text-2xl">
+          <span className="text-base font-semibold leading-100 tracking-tight text-green-light sm:text-2xl">
             Live in Production
           </span>
         </div>
 
-        <span className="leading-100 block text-[32px] font-semibold tracking-tight text-sky-50 sm:text-[3.5rem]">
+        <span className="block text-[20px] font-semibold leading-100 tracking-tight text-sky-50 sm:text-[3.5rem]">
           {name}
         </span>
       </div>
