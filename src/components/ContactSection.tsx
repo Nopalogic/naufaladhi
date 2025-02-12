@@ -30,10 +30,6 @@ export default function ContactSection() {
       <section
         id="contact"
         className="relative flex w-full overflow-hidden pb-10 pt-20"
-        style={{
-          background:
-            "linear-gradient(115.24deg, rgba(27, 69, 91, 0.2) -16.72%, rgba(0, 0, 0, 0) 49.18%), #040d11",
-        }}
       >
         <Image
           src="/images/contact-bg.png"
@@ -62,7 +58,7 @@ export default function ContactSection() {
 
           <footer className="mt-40 flex flex-col-reverse items-center justify-between gap-2 text-slate-200 md:flex-row 2xl:mt-24">
             <p className="text-sm font-light md:text-base md:font-normal">
-              Copyright &copy; 2024 Naufal Adhi
+              Create by Naufal Adhi - 2025
             </p>
 
             <div className="my-1 h-[1px] w-full bg-white/50 md:hidden" />
